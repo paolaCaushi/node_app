@@ -4,12 +4,10 @@ const getAllTodos = {
         response: {
             200:{
                 type: 'array',
-                products: todos
+                todos: todos
             },
-            
         },
     }
   }
-
 
   module.exports = getAllTodos
